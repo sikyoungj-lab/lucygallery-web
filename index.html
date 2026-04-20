@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucy Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <h1>Lucy Gallery</h1>
+      <div class="nav-links">
+        <a href="#about">소개</a>
+        <a href="#work">작업</a>
+        <a href="#contact">문의</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">Beauty · Makeup · Portfolio</p>
+      <h2>루시갤러리 웹사이트</h2>
+      <p class="desc">
+        메이크업, 뷰티, 브랜드 스토리를 담는 개인 웹사이트입니다.
+      </p>
+      <a class="btn" href="#contact">문의하기</a>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h3>About</h3>
+      <p>
+        루시갤러리는 메이크업 아티스트이자 뷰티 크리에이터의 작업, 브랜드 방향,
+        포트폴리오를 소개하는 공간입니다.
+      </p>
+    </section>
+
+    <section id="work" class="section">
+      <h3>Work</h3>
+      <div class="cards">
+        <div class="card">Makeup Portfolio</div>
+        <div class="card">Beauty Branding</div>
+        <div class="card">Creative Project</div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h3>Contact</h3>
+      <p>협업 및 문의는 추후 이메일/링크로 연결할 예정입니다.</p>
+      <button class="btn" onclick="showMessage()">환영 메시지 보기</button>
+      <p id="message"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
